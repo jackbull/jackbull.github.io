@@ -1,65 +1,212 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Jackbull.github.io by jackbull</title>
+<META charset="utf-8">	 <TITLE>Jackbull</TITLE>	 
+<META name="description" content="test text test text ">	 
+<META name="keywords" content="Jackbull">	 <LINK href="../favicon.ico" rel="favicon shortcut icon">
+	 <LINK href="../favicon.png" rel="apple-touch-icon">	 
+<STYLE type="text/css">
+	@import url();
+	body {
+		font-family: 'Roboto', Helvetica Neue, Helvetica, Arial, Ubuntu, sans-serif;
+		font-size: 20px;
+		color: #FFF;
+		padding: 0;
+		margin: 0;
+		background: #FFF center scroll no-repeat;
+		background-size: cover;
+		overflow: hidden;
+	}
+	#cont {
+		background: #FFF center scroll no-repeat;
+		background-size: cover;
+		opacity: 0;
+		-webkit-transition: opacity 1200ms ease;
+		-moz-transition: opacity 1200ms ease;
+		transition: opacity 1200ms ease;
+	}
+	* {text-decoration:none!important;}
+	#title-12 {
+		position: fixed;
+		top: 50%;
+		left: 0;
+		width: 100%;
+		margin: -190px 0 0 0;
+		opacity: 0;
+		z-index: 100;
+		-webkit-transition: all 1200ms ease;
+		-moz-transition: all 1200ms ease;
+		transition: all 1200ms ease;
+	}
+	h1 {
+		font-size: 3.55em;
+		font-weight: 100;
+		text-align: center;
+		letter-spacing: 2px;
+		margin: 0;
+	}
+	h2 {
+		font-size: 2.27em;
+		font-weight: 100;
+		text-align: center;
+		margin: 0;
+	}
+	h2 span {
+		padding: 0 0.267em;
+	}
+	#main-nav, #main-nav div, #main-nav nav, #main-nav ul, #main-nav li, #main-nav p {
+		box-sizing: border-box;
+		margin: 0;
+	}
+	#main-nav {
+		position: fixed;
+		bottom: -24.35em;
+		left: 0;
+		width: 100%;
+		height: 6.75em;
+		font-weight: 100;
+		background: rgba(238, 238, 238, 0.767);
+		opacity: 0;
+		z-index: 300;
+		-webkit-transition: all 700ms ease;
+		-moz-transition: all 700ms ease;
+		transition: all 700ms ease;
+	}
+	#main-nav ul {
+		display: block;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+	#main-nav li {
+		display: inline-block;
+		width: 26%;
+		height: 6.75em;
+		color: #444;
+		text-align: center;
+		padding: 2.075em 0;
+		margin: 0;
+	}
+	#main-nav li:hover {
+		color: rgb(238, 238, 238);
+		background: #444;
+	}
+	#main-nav li a {
+		font-size: 2.112em;
+		font-weight: inherit;
+		color: inherit;
+		text-decoration: inherit;
+		cursor: pointer;
+	}
+	#contact-info {
+		position: absolute;
+		width: 100%;
+		height: 22em;
+		color: #43b1bd;
+		text-align: center;
+		padding: 30px 0 0 0;
+		background: rgba(238, 238, 238, 0.767);
+	}
+	#contact-info p a {
+		font-size: 1.27em;
+		font-weight: 300;
+		color: #38D;
+		text-decoration: inherit;
+	}
+	footer {
+		position: absolute;
+		left: 0;
+		bottom: 10px;
+		width: 100%;
+		font-weight: 300;
+		text-align: center;
+	}
+	footer a {
+		display: block;
+		font-size: 0.745em;
+		color: #555;
+		text-decoration: none;
+	}
+	footer span {
+		display: block;
+		font-size: 0.595em;
+		color: #777;
+	}
+	.preload {
+		width: 0;
+		height: 0;
+		opacity: 0;
+		overflow: hidden;
+	}
+	</STYLE>
+	 
+<SCRIPT type="text/javascript">
+	window.contactOnDisplay = false;
+	function showNav() {
+		document.getElementById("main-nav").style.opacity = 1;
+		document.getElementById("main-nav").style.bottom = 0;
+	}
+	function pageDidLoad() {
+		document.getElementById("title-12").style.opacity = 1;
+		document.getElementById("title-12").style.marginTop = "-170px";
+		document.getElementById("cont").style.backgroundImage = "url(http://jackbull.chinacloudsites.cn/hostingstart/nogive2015.JPG)";
+		document.getElementById("cont").style.opacity = 1;
+		setTimeout(showNav, 600);
+	}
+	function bigDidLoad() {
+		document.getElementById("cont").style.backgroundImage = "url()";
+	}
+	function displayContact() {
+		var navbar = document.getElementById("main-nav").style;
+		var contactInfo = document.getElementById("contact-info").style;
+		if (window.contactOnDisplay) {
+			navbar.bottom = 0;
+			window.contactOnDisplay = false;
+		} else {
+			navbar.bottom = "22em";
+			window.contactOnDisplay = true;
+		}
+	}
+	</SCRIPT>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.9600.17239"></HEAD> 
+<BODY onload="pageDidLoad()">
+<DIV id="cont"><HEADER id="title-12">
+<H1>马年，我高唔过锋仔</H1>
+<H2>不过，我还是喜欢你</H2></HEADER>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Jackbull.github.io</h1>
-        <p>A Hexo Blog</p>
-
-
-        <p class="view"><a href="https://github.com/jackbull">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+<DIV id="main-nav">
+<UL>
+  <LI><A href="http://jackbull.chinacloudsites.cn/renshi.html">Renshi</A></LI>
+  <LI><A href="http://jackbull.chinacloudsites.cn/jackbull.html">Blog</A></LI>
+  <LI><A onclick="displayContact()">About</A></LI></UL>
+<DIV id="contact-info">
+<P>
+<CENTER>我是一个广东文科生 Jackbull
+<CENTER><BR>
+<CENTER>我不会写代码，不会做网页
+<CENTER><BR>
+<CENTER>我只不过碰巧买了个 Azure 一元试用VPS 把 Juanzii 的网页挂上来玩玩
+<CENTER><BR>
+<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="Jackbull" data-title="Jackbull's Home" data-url="http://jackbull.chinacloudsites.cn/"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"jackbullclouds"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+<P></P><FOOTER><SPAN>Adapted by Juanzii Implemented by Joy 
+Neop.</SPAN></FOOTER></CENTER></CENTER></CENTER></CENTER></CENTER></CENTER></DIV></DIV></DIV>
+<DIV class="preload"><IMG onload="pageDidLoad()" src="">		 <IMG onload="bigDidLoad()" 
+src="">	 </DIV>
+<SCRIPT type="text/javascript">
+	document.getElementById("cont").style.height = window.innerHeight + "px";
+	setTimeout(pageDidLoad, 900);
+	</SCRIPT>
+ </BODY></HTML>
