@@ -1,255 +1,890 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
-
-body {
-  padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color:#222;
-  margin:0 0 20px;
-}
-
-p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
-}
-
-h1, h2, h3 {
-  line-height:1.1;
-}
-
-h1 {
-  font-size:28px;
-}
-
-h2 {
-  color:#393939;
-}
-
-h3, h4, h5, h6 {
-  color:#494949;
-}
-
-a {
-  color:#39c;
-  font-weight:400;
-  text-decoration:none;
-}
-
-a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.6em;
-  display:block;
-}
-
-.wrapper {
-  width:860px;
-  margin:0 auto;
-}
-
-blockquote {
-  border-left:1px solid #e5e5e5;
-  margin:0;
-  padding:0 0 0 20px;
-  font-style:italic;
-}
-
-code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#333;
-  font-size:12px;
-}
-
-pre {
-  padding:8px 15px;
-  background: #f8f8f8;  
-  border-radius:5px;
-  border:1px solid #e5e5e5;
-  overflow-x: auto;
-}
-
-table {
-  width:100%;
-  border-collapse:collapse;
-}
-
-th, td {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
-}
-
-dt {
-  color:#444;
-  font-weight:700;
-}
-
-th {
-  color:#444;
-}
-
-img {
-  max-width:100%;
-}
-
+@import url( http://fonts.useso.com/css?family=Open+Sans:400italic,600italic,400,600 );
+@import url( http://fonts.useso.com/css?family=Karla:700 );
 header {
-  width:270px;
-  float:left;
-  position:fixed;
+	display: block;
 }
-
-header ul {
-  list-style:none;
-  height:40px;
-  
-  padding:0;
-  
-  background: #eee;
-  background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
-  
-  border-radius:5px;
-  border:1px solid #d2d2d2;
-  box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
-  width:270px;
-}
-
-header li {
-  width:89px;
-  float:left;
-  border-right:1px solid #d2d2d2;
-  height:40px;
-}
-
-header ul a {
-  line-height:1;
-  font-size:11px;
-  color:#999;
-  display:block;
-  text-align:center;
-  padding-top:6px;
-  height:40px;
-}
-
-strong {
-  color:#222;
-  font-weight:700;
-}
-
-header ul li + li {
-  width:88px;
-  border-left:1px solid #fff;
-}
-
-header ul li + li + li {
-  border-right:none;
-  width:89px;
-}
-
-header ul a strong {
-  font-size:14px;
-  display:block;
-  color:#222;
-}
-
-section {
-  width:500px;
-  float:right;
-  padding-bottom:50px;
-}
-
-small {
-  font-size:11px;
-}
-
-hr {
-  border:0;
-  background:#e5e5e5;
-  height:1px;
-  margin:0 0 20px;
-}
-
 footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
+	display: block;
 }
-
-@media print, screen and (max-width: 960px) {
-  
-  div.wrapper {
-    width:auto;
-    margin:0;
-  }
-  
-  header, section, footer {
-    float:none;
-    position:static;
-    width:auto;
-  }
-  
-  header {
-    padding-right:320px;
-  }
-  
-  section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
-  }
-  
-  header a small {
-    display:inline;
-  }
-  
-  header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
-  }
+section {
+	display: block;
 }
-
-@media print, screen and (max-width: 720px) {
-  body {
-    word-wrap:break-word;
-  }
-  
-  header {
-    padding:0;
-  }
-  
-  header ul, header p.view {
-    position:static;
-  }
-  
-  pre, code {
-    word-wrap:normal;
-  }
+article {
+	display: block;
 }
-
-@media print, screen and (max-width: 480px) {
-  body {
-    padding:15px;
-  }
-  
-  header ul {
-    display:none;
-  }
+nav {
+	display: block;
 }
-
-@media print {
-  body {
-    padding:0.4in;
-    font-size:12pt;
-    color:#444;
-  }
+aside {
+	display: block;
+}
+body {
+	background: white; margin: 0px; padding: 0px;
+}
+html {
+	background: white; margin: 0px; padding: 0px;
+}
+html {
+	font-size: 17px; -webkit-font-smoothing: antialiased;
+}
+body {
+	color: rgb(75, 80, 90); line-height: 1.5; font-family: "Open Sans", sans-serif; font-size: 1.12rem; position: relative;
+}
+b {
+	font-weight: 600;
+}
+strong {
+	font-weight: 600;
+}
+i {
+	font-style: italic;
+}
+em {
+	font-style: italic;
+}
+a {
+	color: rgb(46, 178, 52); text-decoration: none;
+}
+a:hover {
+	opacity: 0.65;
+}
+a:active {
+	opacity: 0.65;
+}
+a:visited {
+	opacity: 0.65;
+}
+a.icon {
+	padding-left: 28px; position: relative;
+}
+a.icon::before {
+	background: url("icons.svg") no-repeat 0px 0px / 252px 18px; left: 0px; top: 0px; width: 18px; height: 18px; display: block; position: absolute; content: "";
+}
+a.icon:active::before {
+	top: 1px;
+}
+hr {
+	background: rgb(236, 236, 236); border: currentColor; border-image: none; height: 1px;
+}
+fieldset {
+	background: rgb(236, 236, 236); padding: 34px; border: currentColor; border-image: none;
+}
+label {
+	padding: 6px 0px; font-size: 0.75rem; font-weight: 600; display: block;
+}
+input[type='text'] {
+	background: white; padding: 8px; border: 1px solid rgb(217, 217, 217); border-image: none; color: rgb(75, 80, 90); line-height: 1; font-family: "Open Sans", sans-serif; font-size: 1rem; font-weight: 400;
+}
+input[type='password'] {
+	background: white; padding: 8px; border: 1px solid rgb(217, 217, 217); border-image: none; color: rgb(75, 80, 90); line-height: 1; font-family: "Open Sans", sans-serif; font-size: 1rem; font-weight: 400;
+}
+input[type='email'] {
+	background: white; padding: 8px; border: 1px solid rgb(217, 217, 217); border-image: none; color: rgb(75, 80, 90); line-height: 1; font-family: "Open Sans", sans-serif; font-size: 1rem; font-weight: 400;
+}
+input[type='number'] {
+	background: white; padding: 8px; border: 1px solid rgb(217, 217, 217); border-image: none; color: rgb(75, 80, 90); line-height: 1; font-family: "Open Sans", sans-serif; font-size: 1rem; font-weight: 400;
+}
+input[type='button'] {
+	background: white; padding: 8px; border: 1px solid rgb(217, 217, 217); border-image: none; color: rgb(75, 80, 90); line-height: 1; font-family: "Open Sans", sans-serif; font-size: 1rem; font-weight: 400;
+}
+input[type='submit'] {
+	background: white; padding: 8px; border: 1px solid rgb(217, 217, 217); border-image: none; color: rgb(75, 80, 90); line-height: 1; font-family: "Open Sans", sans-serif; font-size: 1rem; font-weight: 400;
+}
+textarea {
+	background: white; padding: 8px; border: 1px solid rgb(217, 217, 217); border-image: none; color: rgb(75, 80, 90); line-height: 1; font-family: "Open Sans", sans-serif; font-size: 1rem; font-weight: 400;
+}
+input[type='button'] {
+	background: rgb(235, 35, 68); padding: 12px 8px; border: currentColor; border-image: none; color: white; font-weight: 600;
+}
+input[type='submit'] {
+	background: rgb(235, 35, 68); padding: 12px 8px; border: currentColor; border-image: none; color: white; font-weight: 600;
+}
+input[type='button']:hover {
+	opacity: 0.65;
+}
+input[type='submit']:hover {
+	opacity: 0.65;
+}
+table {
+	margin: 34px 0px; width: 100%;
+}
+table td {
+	padding: 6px; text-align: left;
+}
+table th {
+	padding: 6px; text-align: left;
+}
+table th {
+	border-bottom-color: rgb(236, 236, 236); border-bottom-width: 1px; border-bottom-style: solid;
+}
+a {
+	transition:opacity 0.2s ease-in-out, color 0.2s ease-in-out; -webkit-transition: opacity 0.2s ease-in-out, color 0.2s ease-in-out; -moz-transition: opacity 0.2s ease-in-out, color 0.2s ease-in-out; -o-transition: opacity 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+button {
+	transition:opacity 0.2s ease-in-out, color 0.2s ease-in-out; -webkit-transition: opacity 0.2s ease-in-out, color 0.2s ease-in-out; -moz-transition: opacity 0.2s ease-in-out, color 0.2s ease-in-out; -o-transition: opacity 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+p {
+	margin: 12px 0px;
+}
+h1 {
+	margin: 0px; padding: 17px 0px 8px; color: rgb(25, 26, 26); line-height: 1;
+}
+h2 {
+	margin: 0px; padding: 17px 0px 8px; color: rgb(25, 26, 26); line-height: 1;
+}
+h3 {
+	margin: 0px; padding: 17px 0px 8px; color: rgb(25, 26, 26); line-height: 1;
+}
+h4 {
+	margin: 0px; padding: 17px 0px 8px; color: rgb(25, 26, 26); line-height: 1;
+}
+h5 {
+	margin: 0px; padding: 17px 0px 8px; color: rgb(25, 26, 26); line-height: 1;
+}
+h1 {
+	font-size: 2rem; font-weight: 600;
+}
+h2 {
+	font-size: 1.5rem; font-weight: 400;
+}
+h3 {
+	font-size: 1.12rem; font-weight: 600;
+}
+h4 {
+	font-size: 1rem; font-weight: 400;
+}
+h5 {
+	font-size: 0.87rem; font-weight: 600;
+}
+.title {
+	text-transform: uppercase; font-family: "Karla", sans-serif; font-size: 0.75rem; font-weight: 700; margin-bottom: 15px; display: block; position: relative;
+}
+.title::after {
+	background: rgb(235, 35, 68); left: 0px; width: 18px; height: 1px; bottom: -15px; display: block; position: absolute; content: "";
+}
+.more {
+	background: url("buttons-light.svg") no-repeat -108px -11px / 170px 34px; margin: 0px 4px; width: 22px; height: 12px; text-indent: -9999px; display: inline-block;
+}
+.more:active {
+	background-position: -108px -10px;
+}
+.scroll {
+	background: url("buttons-light.svg") no-repeat -136px 0px / 170px 34px; width: 34px; height: 34px; text-indent: -9999px; display: block;
+}
+.gradient-1 {
+	background-image: linear-gradient(-130deg, rgb(14, 21, 58) 10%, rgb(74, 76, 123) 35%, rgb(161, 140, 171) 65%, rgb(243, 201, 215) 90%); background-color: rgb(161, 140, 171);
+}
+.gradient-2 {
+	background-image: linear-gradient(-130deg, rgb(14, 28, 58) 10%, rgb(74, 104, 123) 35%, rgb(140, 171, 164) 65%, rgb(201, 243, 209) 90%); background-color: rgb(140, 171, 164);
+}
+.gradient-3 {
+	background-image: linear-gradient(-130deg, rgb(58, 14, 28) 10%, rgb(123, 74, 84) 35%, rgb(171, 156, 140) 65%, rgb(222, 243, 201) 90%); background-color: rgb(171, 156, 140);
+}
+.gradient-4 {
+	background-image: linear-gradient(-130deg, rgb(47, 14, 58) 10%, rgb(117, 74, 123) 35%, rgb(171, 140, 152) 65%, rgb(243, 225, 201) 90%); background-color: rgb(171, 140, 152);
+}
+.gradient-5 {
+	background-image: linear-gradient(-130deg, rgb(14, 47, 58) 10%, rgb(74, 104, 123) 35%, rgb(143, 140, 171) 65%, rgb(243, 201, 239) 90%); background-color: rgb(143, 140, 171);
+}
+.hidden {
+	opacity: 0;
+}
+.visible {
+	opacity: 1;
+}
+article .body {
+	margin: 0px auto; width: 634px;
+}
+.teaser .excerpt {
+	margin: 0px auto; width: 634px;
+}
+footer {
+	margin: 0px auto; width: 634px;
+}
+body > header {
+	left: 50%; top: 34px; width: 796px; margin-left: -398px; position: absolute; z-index: 900;
+}
+body > header .logo {
+	background: none; margin: 0px; border: currentColor; border-image: none; top: 0px; height: 34px; color: white; line-height: 34px; position: absolute;
+}
+body > header .toggle {
+	background: none; margin: 0px; border: currentColor; border-image: none; top: 0px; height: 34px; color: white; line-height: 34px; position: absolute;
+}
+body > header .logo::after {
+	background: url("buttons-light.svg") no-repeat 0% 0% / 170px 34px; top: 0px; width: 34px; height: 34px; display: block; position: absolute; content: "";
+}
+body > header .toggle::after {
+	background: url("buttons-light.svg") no-repeat 0% 0% / 170px 34px; top: 0px; width: 34px; height: 34px; display: block; position: absolute; content: "";
+}
+body > header .logo:active::after {
+	top: 1px;
+}
+body > header .toggle:active::after {
+	top: 1px;
+}
+body > header .logo:hover {
+	opacity: 1;
+}
+body > header .toggle:hover {
+	opacity: 1;
+}
+body > header .logo:hover::after {
+	opacity: 0.65;
+}
+body > header .toggle:hover::after {
+	opacity: 0.65;
+}
+body > header .logo {
+	padding: 0px 0px 0px 43px; left: 0px; font-size: 1rem; font-weight: 600; display: block;
+}
+body > header .logo::after {
+	background-position: 0px 0px; left: 0px;
+}
+body > header .toggle {
+	padding: 0px 43px 0px 0px; right: 0px; text-transform: uppercase; font-family: "Karla", sans-serif; font-size: 0.75rem; font-weight: 700;
+}
+body > header .toggle::after {
+	background-position: -34px 0px; right: 0px;
+}
+body > header .open.toggle::after {
+	background-position: -68px 0px;
+}
+body > header nav {
+	background: white; top: 34px; width: 306px; right: 0px; position: absolute;
+}
+body > header nav ul {
+	margin: 0px; padding: 28px 34px;
+}
+body > header nav ul li {
+	list-style: none;
+}
+body > header nav ul li a {
+	color: rgb(75, 80, 90); line-height: 1.75rem; font-size: 1rem;
+}
+body > header nav ul li a:hover {
+	color: rgb(235, 35, 68); position: relative; opacity: 1;
+}
+body > header nav ul li a:hover::after {
+	background: url("buttons-dark.svg") no-repeat -6px -11px / 100px 34px; top: 5px; width: 22px; height: 12px; right: -32px; display: block; position: absolute; content: "";
+}
+body > header nav ul li a:hover:active::after {
+	background-position: -6px -10px;
+}
+.content article header {
+	width: 100%; height: 600px; color: white; overflow: hidden; position: relative;
+}
+.content article header .overlay {
+	background-position: 50% 0px; transition:opacity 0.35s ease-in-out; width: 100%; height: 700px; opacity: 0.15; background-repeat: no-repeat; background-size: cover; -webkit-transition: opacity 0.35s ease-in-out; -moz-transition: opacity 0.35s ease-in-out; -o-transition: opacity 0.35s ease-in-out; -webkit-filter: saturate(0%); -moz-filter: saturate(0%); -o-filter: saturate(0%);
+}
+.content article header:hover .overlay {
+	opacity: 1; -webkit-filter: saturate(100%); -moz-filter: saturate(100%); -o-filter: saturate(100%);
+}
+.content article header .excerpt {
+	transition:opacity 0.35s ease-in-out; left: 50%; width: 634px; bottom: 95px; margin-left: -317px; position: absolute; z-index: 900; -webkit-transition: opacity 0.35s ease-in-out; -moz-transition: opacity 0.35s ease-in-out; -o-transition: opacity 0.35s ease-in-out;
+}
+.content article header .excerpt .title {
+	opacity: 0.65;
+}
+.content article header .excerpt .meta {
+	opacity: 0.65;
+}
+.content article header .excerpt .title::after {
+	background: white; opacity: 1;
+}
+.content article header .excerpt h1 {
+	padding: 15px 0px 4px; color: white;
+}
+.content article header .excerpt h1 a {
+	color: white;
+}
+.content article header .excerpt p {
+	margin: 10px 0px;
+}
+.content article header .excerpt .meta {
+	font-size: 0.87rem;
+}
+.content article header:hover .excerpt {
+	transition:0.4s ease-in-out; opacity: 0.65; transform: translate3d(0px, 12px, 0px); -webkit-transform: translate3d(0, 12px, 0); -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; -moz-transform: translate3d(0, 12px, 0); -o-transform: translate3d(0, 12px, 0);
+}
+.content article header .scroll {
+	left: 50%; bottom: 34px; margin-left: -17px; display: none; position: absolute; z-index: 900;
+}
+.content article header .scroll:active {
+	bottom: 33px;
+}
+.content article .body {
+	padding: 68px 0px 34px;
+}
+.content article .body .more {
+	background: url("buttons-dark.svg") no-repeat -6px -11px / 100px 34px; margin: 10px 0px 0px; display: block;
+}
+.content article .body .more:active {
+	background-position: -6px -10px;
+}
+.content article .body .summary {
+	padding-bottom: 34px;
+}
+.content article .body :last-of-type.summary {
+	padding-bottom: 0px;
+}
+.content article .body .media {
+	background-position: center; margin: 68px -81px; height: auto; position: relative; min-height: 150px; background-repeat: no-repeat; background-size: 72px 72px;
+}
+.content article .body .summary .media {
+	margin-top: 34px;
+}
+.content article .body .image.media {
+	background-image: url("placeholder-image.svg");
+}
+.content article .body .image.media img {
+	width: 100%; height: auto; display: block;
+}
+.content article .body .youtube.media iframe {
+	border: currentColor; border-image: none; width: 796px; height: 448px; display: block;
+}
+.content article .body .vimeo.media iframe {
+	border: currentColor; border-image: none; width: 796px; height: 448px; display: block;
+}
+.content article .body .audio.media iframe {
+	border: currentColor; border-image: none; width: 796px; height: 448px; display: block;
+}
+.content article .body .youtube.media {
+	background-image: url("placeholder-youtube.svg");
+}
+.content article .body .vimeo.media {
+	background-image: url("placeholder-vimeo.svg");
+}
+.content article .body .audio.media {
+	background-image: url("placeholder-audio.svg");
+}
+.content article .body .audio.media iframe {
+	width: 100%; height: 166px;
+}
+.content article .body .media .caption {
+	top: 0px; width: 224px; right: -246px; position: absolute;
+}
+.content article .body .media .caption h4 {
+	padding: 0px;
+}
+.content article .body .media .caption p {
+	line-height: 1.75; font-size: 0.87rem;
+}
+.content article .body .media .caption a {
+	line-height: 1.75; font-size: 0.87rem;
+}
+.content article .body .media .caption p {
+	margin: 10px 0px 18px; position: relative;
+}
+.content article .body .media .caption p::after {
+	background: rgb(235, 35, 68); left: 0px; width: 18px; height: 1px; bottom: -11px; display: block; position: absolute; content: "";
+}
+.content article .body .media .caption a {
+	color: rgb(75, 80, 90);
+}
+.content article .body .media .caption a.image.icon::before {
+	background-position: -198px 0px;
+}
+.content article .body .media .caption a.video.icon::before {
+	background-position: -216px 0px;
+}
+.content article .body .media .caption a.audio.icon::before {
+	background-position: -234px 0px;
+}
+.content article .body .media .caption a:hover {
+	color: rgb(25, 26, 26);
+}
+.content article footer .author {
+	font-size: 0.87rem;
+}
+.content article footer .share {
+	font-size: 0.87rem;
+}
+.content article footer .comments {
+	font-size: 0.87rem;
+}
+.content article footer .author ul {
+	padding: 0px;
+}
+.content article footer .share ul {
+	padding: 0px;
+}
+.content article footer .comments ul {
+	padding: 0px;
+}
+.content article footer .author ul li {
+	list-style: none;
+}
+.content article footer .share ul li {
+	list-style: none;
+}
+.content article footer .comments ul li {
+	list-style: none;
+}
+.content article footer .meta {
+	padding-bottom: 68px;
+}
+.content article footer .meta::after {
+	clear: both; display: table; content: "";
+}
+.content article footer .author {
+	width: 388px; float: left;
+}
+.content article footer .author h4 {
+	padding: 15px 0px 0px;
+}
+.content article footer .author p {
+	line-height: 1.62rem;
+}
+.content article footer .author ul {
+	margin: 0px; padding-top: 10px;
+}
+.content article footer .author ul::after {
+	clear: both; display: table; content: "";
+}
+.content article footer .author ul li {
+	margin-right: 10px; float: left;
+}
+.content article footer .author ul li a {
+	width: 18px; height: 18px; text-indent: -9999px; display: block;
+}
+.content article footer .author ul li a.icon {
+	padding: 0px;
+}
+.content article footer .author ul li a.twitter.icon::before {
+	background-position: 0px 0px;
+}
+.content article footer .author ul li a.facebook.icon::before {
+	background-position: -18px 0px;
+}
+.content article footer .author ul li a.google.icon::before {
+	background-position: -36px 0px;
+}
+.content article footer .author ul li a.linkedin.icon::before {
+	background-position: -54px 0px;
+}
+.content article footer .author ul li a.pinterest.icon::before {
+	background-position: -72px 0px;
+}
+.content article footer .author ul li a.flickr.icon::before {
+	background-position: -90px 0px;
+}
+.content article footer .author ul li a.dribbble.icon::before {
+	background-position: -108px 0px;
+}
+.content article footer .author ul li a.rss.icon::before {
+	background-position: -126px 0px;
+}
+.content article footer .share {
+	width: 144px; float: right;
+}
+.content article footer .share ul {
+	padding: 15px 0px 0px;
+}
+.content article footer .share ul li {
+	padding: 4px 0px;
+}
+.content article footer .share ul li a {
+	height: 18px; color: rgb(75, 80, 90); display: block;
+}
+.content article footer .share ul li a.twitter::before {
+	background-position: -144px 0px;
+}
+.content article footer .share ul li a.facebook::before {
+	background-position: -162px 0px;
+}
+.content article footer .share ul li a.google::before {
+	background-position: -180px 0px;
+}
+.content article footer .share ul li a:hover {
+	color: rgb(25, 26, 26);
+}
+.content article footer .comments {
+	padding-bottom: 34px;
+}
+.content article footer .pagination {
+	padding-bottom: 68px;
+}
+.content article footer .pagination::after {
+	clear: both; display: table; content: "";
+}
+.content article footer .pagination .button {
+	height: 34px; color: rgb(75, 80, 90); text-transform: uppercase; line-height: 34px; font-family: "Karla", sans-serif; font-size: 0.75rem; font-weight: 700; display: block; position: relative;
+}
+.content article footer .pagination .button::before {
+	background: url("buttons-dark.svg") no-repeat -34px 0px / 100px 34px; left: 0px; top: 0px; width: 34px; height: 34px; display: block; position: absolute; content: "";
+}
+.content article footer .pagination .button:hover {
+	color: rgb(25, 26, 26);
+}
+.content article footer .pagination .button:active::before {
+	top: 1px;
+}
+.content article footer .pagination .older.button {
+	padding-left: 44px; float: left;
+}
+.content article footer .pagination .newer.button {
+	padding-right: 44px; float: right;
+}
+.content article footer .pagination .newer.button::before {
+	background-position: -68px 0px; left: auto; right: 0px;
+}
+.teaser {
+	padding: 68px 0px 62px; color: white;
+}
+.teaser .excerpt {
+	opacity: 0.65;
+}
+.teaser .excerpt .title {
+	opacity: 0.65;
+}
+.teaser .excerpt .meta {
+	opacity: 0.65;
+}
+.teaser .excerpt .title::after {
+	background: white; opacity: 1;
+}
+.teaser .excerpt h1 {
+	padding: 15px 0px 4px; color: white;
+}
+.teaser .excerpt h1 a {
+	color: white;
+}
+.teaser .excerpt p {
+	margin: 10px 0px;
+}
+.teaser .excerpt .meta {
+	font-size: 0.87rem;
+}
+.teaser:hover .excerpt {
+	transition:0.4s ease-in-out; opacity: 1; transform: translate3d(0px, -6px, 0px); -webkit-transform: translate3d(0, -6px, 0); -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; -moz-transform: translate3d(0, -6px, 0); -o-transform: translate3d(0, -6px, 0);
+}
+body > footer {
+	padding: 68px 0px; line-height: 1; font-size: 0.87rem;
+}
+body > footer .copyright {
+	position: relative;
+}
+body > footer .copyright::before {
+	background: rgb(235, 35, 68); left: 0px; top: -15px; width: 18px; height: 1px; display: block; position: absolute; content: "";
+}
+body > footer .copyright a {
+	margin-left: 6px;
+}
+pre {
+	background: rgb(41, 40, 30); margin: 1.5em 0px; padding: 0px 1em; border-radius: 5px; color: rgb(75, 80, 90); font-family: "Karla", sans-serif; font-size: 1rem; display: block; white-space: pre; -ms-word-wrap: break-word;
+}
+code {
+	background: rgb(41, 40, 30); margin: 1.5em 0px; padding: 0px 1em; border-radius: 5px; color: rgb(75, 80, 90); font-family: "Karla", sans-serif; font-size: 1rem; display: block; white-space: pre; -ms-word-wrap: break-word;
+}
+.highlight .c {
+	color: rgb(117, 113, 94);
+}
+.highlight .err {
+	color: rgb(150, 0, 80); background-color: rgb(30, 0, 16);
+}
+.highlight .k {
+	color: rgb(102, 217, 239);
+}
+.highlight .l {
+	color: rgb(174, 129, 255);
+}
+.highlight .n {
+	color: rgb(248, 248, 242);
+}
+.highlight .o {
+	color: rgb(249, 38, 114);
+}
+.highlight .p {
+	color: rgb(248, 248, 242);
+}
+.highlight .cm {
+	color: rgb(117, 113, 94);
+}
+.highlight .cp {
+	color: rgb(117, 113, 94);
+}
+.highlight .c1 {
+	color: rgb(117, 113, 94);
+}
+.highlight .cs {
+	color: rgb(117, 113, 94);
+}
+.highlight .ge {
+	font-style: italic;
+}
+.highlight .gs {
+	font-weight: bold;
+}
+.highlight .kc {
+	color: rgb(102, 217, 239);
+}
+.highlight .kd {
+	color: rgb(102, 217, 239);
+}
+.highlight .kn {
+	color: rgb(249, 38, 114);
+}
+.highlight .kp {
+	color: rgb(102, 217, 239);
+}
+.highlight .kr {
+	color: rgb(102, 217, 239);
+}
+.highlight .kt {
+	color: rgb(102, 217, 239);
+}
+.highlight .ld {
+	color: rgb(230, 219, 116);
+}
+.highlight .m {
+	color: rgb(174, 129, 255);
+}
+.highlight .s {
+	color: rgb(230, 219, 116);
+}
+.highlight .na {
+	color: rgb(166, 226, 46);
+}
+.highlight .nb {
+	color: rgb(248, 248, 242);
+}
+.highlight .nc {
+	color: rgb(166, 226, 46);
+}
+.highlight .no {
+	color: rgb(102, 217, 239);
+}
+.highlight .nd {
+	color: rgb(166, 226, 46);
+}
+.highlight .ni {
+	color: rgb(248, 248, 242);
+}
+.highlight .ne {
+	color: rgb(166, 226, 46);
+}
+.highlight .nf {
+	color: rgb(166, 226, 46);
+}
+.highlight .nl {
+	color: rgb(248, 248, 242);
+}
+.highlight .nn {
+	color: rgb(248, 248, 242);
+}
+.highlight .nx {
+	color: rgb(166, 226, 46);
+}
+.highlight .py {
+	color: rgb(248, 248, 242);
+}
+.highlight .nt {
+	color: rgb(249, 38, 114);
+}
+.highlight .nv {
+	color: rgb(248, 248, 242);
+}
+.highlight .ow {
+	color: rgb(249, 38, 114);
+}
+.highlight .w {
+	color: rgb(248, 248, 242);
+}
+.highlight .mf {
+	color: rgb(174, 129, 255);
+}
+.highlight .mh {
+	color: rgb(174, 129, 255);
+}
+.highlight .mi {
+	color: rgb(174, 129, 255);
+}
+.highlight .mo {
+	color: rgb(174, 129, 255);
+}
+.highlight .sb {
+	color: rgb(230, 219, 116);
+}
+.highlight .sc {
+	color: rgb(230, 219, 116);
+}
+.highlight .sd {
+	color: rgb(230, 219, 116);
+}
+.highlight .s2 {
+	color: rgb(230, 219, 116);
+}
+.highlight .se {
+	color: rgb(174, 129, 255);
+}
+.highlight .sh {
+	color: rgb(230, 219, 116);
+}
+.highlight .si {
+	color: rgb(230, 219, 116);
+}
+.highlight .sx {
+	color: rgb(230, 219, 116);
+}
+.highlight .sr {
+	color: rgb(230, 219, 116);
+}
+.highlight .s1 {
+	color: rgb(230, 219, 116);
+}
+.highlight .ss {
+	color: rgb(230, 219, 116);
+}
+.highlight .bp {
+	color: rgb(248, 248, 242);
+}
+.highlight .vc {
+	color: rgb(248, 248, 242);
+}
+.highlight .vg {
+	color: rgb(248, 248, 242);
+}
+.highlight .vi {
+	color: rgb(248, 248, 242);
+}
+.highlight .il {
+	color: rgb(174, 129, 255);
+}
+@media only screen and (max-width:1440px)
+{
+html {
+	font-size: 16px;
+}
+.content article .body .media .caption {
+	background: white; top: auto; width: auto; right: auto; padding-top: 34px; position: relative;
+}
+}
+@media only screen and (max-width:780px)
+{
+html {
+	font-size: 15px;
+}
+body > header {
+	width: 634px; margin-left: -317px;
+}
+.content article .body .media {
+	margin: 68px 0px;
+}
+.content article .body .youtube.media iframe {
+	width: 634px; height: 357px;
+}
+.content article .body .vimeo.media iframe {
+	width: 634px; height: 357px;
+}
+}
+@media only screen and (max-width:634px)
+{
+html {
+	font-size: 14px;
+}
+body > header {
+	width: 412px;
+}
+.content article header .excerpt {
+	width: 412px;
+}
+article .body {
+	width: 412px;
+}
+.teaser .excerpt {
+	width: 412px;
+}
+footer {
+	width: 412px;
+}
+body > header {
+	margin-left: -206px;
+}
+.content article header .excerpt {
+	margin-left: -206px;
+}
+.content article .body .youtube.media {
+	margin: 68px 0px;
+}
+.content article .body .vimeo.media {
+	margin: 68px 0px;
+}
+.content article .body .youtube.media iframe {
+	width: 412px; height: 232px;
+}
+.content article .body .vimeo.media iframe {
+	width: 412px; height: 232px;
+}
+.content article footer .author {
+	width: 208px;
+}
+.content article footer .author ul li {
+	margin-right: 6px;
+}
+.content article footer .share {
+	width: 122px;
+}
+}
+@media only screen and (max-width:412px)
+{
+body > header {
+	width: 300px;
+}
+.content article header .excerpt {
+	width: 300px;
+}
+article .body {
+	width: 300px;
+}
+.teaser .excerpt {
+	width: 300px;
+}
+footer {
+	width: 300px;
+}
+body > header nav {
+	width: 300px;
+}
+body > header {
+	margin-left: -150px;
+}
+.content article header .excerpt {
+	margin-left: -150px;
+}
+.content article .body .media {
+	margin: 34px 0px;
+}
+.content article .body .youtube.media {
+	margin: 34px 0px;
+}
+.content article .body .vimeo.media {
+	margin: 34px 0px;
+}
+.content article header {
+	height: 500px;
+}
+.content article .body {
+	padding: 34px 0px 0px;
+}
+.content article .body .youtube.media iframe {
+	width: 300px; height: 169px;
+}
+.content article .body .vimeo.media iframe {
+	width: 300px; height: 169px;
+}
+.content article footer .meta {
+	padding-bottom: 0px;
+}
+.content article footer .author {
+	width: auto; padding-bottom: 34px; float: none;
+}
+.content article footer .share {
+	width: auto; padding-bottom: 34px; float: none;
+}
+body > footer .copyright {
+	line-height: 1.5;
+}
+body > footer .copyright a {
+	margin: 0px;
+}
 }
