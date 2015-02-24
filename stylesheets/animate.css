@@ -1,0 +1,27 @@
+.animated {
+	animation-duration: 1s; animation-fill-mode: both; -webkit-animation-duration: 1s; -webkit-animation-fill-mode: both;
+}
+.infinite.animated {
+	animation-iteration-count: infinite; -webkit-animation-iteration-count: infinite;
+}
+.hinge.animated {
+	animation-duration: 2s; -webkit-animation-duration: 2s;
+}
+.fadeInDown {
+	animation-name: fadeInDown; -webkit-animation-name: fadeInDown;
+}
+.fadeInDownBig {
+	animation-name: fadeInDownBig; -webkit-animation-name: fadeInDownBig;
+}
+.fadeInRight {
+	animation-name: fadeInRight; -webkit-animation-name: fadeInRight;
+}
+.fadeInRightBig {
+	animation-name: fadeInRightBig; -webkit-animation-name: fadeInRightBig;
+}
+.fadeInUp {
+	animation-name: fadeInUp; -webkit-animation-name: fadeInUp;
+}
+.fadeInUpBig {
+	animation-name: fadeInUpBig; -webkit-animation-name: fadeInUpBig;
+}
