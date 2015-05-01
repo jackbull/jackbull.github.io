@@ -1,0 +1,219 @@
+.logo_l {
+	background: rgb(64, 150, 238); height: 44px; min-width: 320px; max-width: 960px;
+}
+.logo_l ul li.pic {
+	width: 40%; float: left;
+}
+.logo_l ul li.pic a {
+	padding: 10px 0px 0px 10px; display: inline-block;
+}
+.logo_l ul li.pic a img {
+	overflow: hidden; display: block;
+}
+.logo_l ul li.register {
+	float: right;
+}
+.logo_l ul li.register a {
+	margin: 13px 20px 0px; color: rgb(255, 255, 255); font-size: 16px; display: inline-block;
+}
+.zong {
+	padding: 10px; position: relative; min-width: 280px; max-width: 960px;
+}
+.search {
+	position: relative;
+}
+.search ul li input {
+	background: rgb(255, 255, 255); border: 1px solid rgb(64, 150, 238); border-image: none; width: 99%; height: 50px; color: rgb
+
+(166, 166, 166); line-height: 50px; text-indent: 1em; font-size: 16px;
+}
+.search ul li.search_i {
+	top: 0px; right: 0px; display: inline-block; position: absolute;
+}
+.line_to {
+	width: 100%; border-top-color: rgb(159, 159, 159); border-top-width: 1px; border-top-style: solid;
+}
+.course ul li {
+	width: 50%; height: 40px; text-align: center; line-height: 40px; border-bottom-color: rgb(231, 231, 231); border-bottom-width: 2px; 
+
+border-bottom-style: solid; float: left;
+}
+.course ul li a {
+	width: 100%; color: rgb(159, 159, 159); font-size: 20px; display: inline-block; cursor: pointer;
+}
+.line_s {
+	width: 0px; height: 20px; border-right-color: rgb(159, 159, 159); border-right-width: 2px; border-right-style: solid;
+}
+.course ul li.selectTag {
+	border-bottom-color: rgb(64, 150, 238); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.course ul li.selectTag a {
+	width: 100%; color: rgb(0, 0, 0); display: inline-block; cursor: pointer;
+}
+.course ul li:hover {
+	border-bottom-color: rgb(64, 150, 238); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.course ul li:hover a {
+	color: rgb(0, 0, 0);
+}
+.xue_k {
+	margin-top: 10px; display: none;
+}
+.xue_k ul li {
+	margin: 10px 7px 0px; padding: 12px 0px; border: 1px solid rgb(64, 150, 238); border-image: none; width: 28%; text-align: center; 
+
+float: left;
+}
+.xue_k ul li a {
+	width: 100%; color: rgb(0, 0, 0); font-size: 16px; display: inline-block;
+}
+.line-h {
+	left: 50%; top: 20px; height: 20px; border-right-color: rgb(159, 159, 159); border-right-width: 2px; border-right-style: solid; 
+
+position: absolute;
+}
+.hot {
+	width: 100%; overflow: hidden; clear: both; margin-bottom: 20px; float: left;
+}
+.hot ul li {
+	background: rgb(255, 255, 255); border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(194, 194, 194) 
+
+rgb(194, 194, 194) currentColor; padding: 10px 5px; border-image: none; overflow: hidden; clear: both; min-width: 250px;
+}
+.hot ul li .pic {
+	width: 40%; margin-right: 15px; float: left;
+}
+.hot ul li p.size {
+	width: 54%; line-height: 22px; float: left;
+}
+.hot ul li p.size span.cc {
+	width: 100%; clear: both; display: inline-block;
+}
+.hot ul li .size a {
+	color: rgb(0, 0, 0); margin-right: 10px;
+}
+.hot ul li .size img {
+	vertical-align: middle;
+}
+.hot ul li .size span.name_m {
+	width: 39%; color: rgb(72, 72, 72); overflow: hidden; font-size: 14px; display: inline-block; white-space: nowrap; -ms-text-
+
+overflow: ellipsis; -o-text-overflow: ellipsis;
+}
+.hot ul li .size span.zan {
+	background: url("../images/zan.png") no-repeat; padding-left: 25px; float: right;
+}
+.hot ul li.more {
+	padding: 10px; text-align: center; border-bottom-color: rgb(194, 194, 194); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.banner {
+	margin: 20px 10px; position: relative;
+}
+#nav {
+	height: 20px; right: 10px; bottom: 20px; line-height: 20px; position: absolute;
+}
+#nav {
+	margin-right: 5%; float: left; opacity: 1;
+}
+#nav ul li {
+	background: url("../images/cc.jpg") no-repeat; width: 20px; height: 20px; margin-top: 5px; margin-left: 10px; float: left;
+}
+#nav ul li.active {
+	background: url("../images/tt.jpg") no-repeat; width: 20px; height: 20px;
+}
+.banner img {
+	width: 100%; overflow: hidden;
+}
+.banner ul li {
+	float: left;
+}
+.menu-ico {
+	background-position: top; width: 50px; height: 30px; background-image: url
+
+("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJl
+
+YWR5ccllPAAAAS1JREFUeNpi+P//PwMQewDxWSD
+
++B8TvgXg6EPNC5WiCGUGWMjAwbAViJgZUcASI7YH4H5KYBBBzMFADQH2KC/iiufTAfyoBkC8N8bjLmIFGAGTxRzzy72llMQsQrwDiDCxyv4B4P
+
+ZZ4/0CtOAal3sNoUfATiMNpnaphQe4NjdP3UJ8+YqAhgFlMd8DEMEBgwC2WBuJeIN4Hjd9wmtsMjGM1IH6FpXCZQOtUvQWaorEBUyA
+
++g8QH5XkLahUgrnjk3dAsBlUS8kM6cYF8vBtPUO9C438hULYPjcQFy05FSEUmKBGtHC0yh4XFLEgO8IY2gz7So1oc0IbAdDxNH1U0n1cAsQa1fPw
+
+eTys0n5bNW3487hKkZao+j0f+LC0LEFK6MCpAzEOtOB6QThtAgAEAbSRb1C+PgKEAAAAASUVORK5CYII="); background-repeat: no-repeat;
+}
+.header .pageMenu {
+	overflow: visible; border-left-color: rgb(53, 132, 208); border-left-width: 1px; border-left-style: solid; position: relative;
+}
+.pageMenu .subNav {
+	border: 1px solid rgb(159, 159, 159); border-image: none; top: 44px; width: 150px; right: 0px; display: none; position: absolute; z-
+
+index: 999; background-color: rgb(255, 255, 255);
+}
+.pageMenu li {
+	border-bottom-color: rgb(231, 231, 231); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.pageMenu a {
+	background-position: 18px; color: rgb(0, 0, 0); line-height: 35px; padding-left: 48px; font-size: 20px; display: block; background-
+
+repeat: no-repeat;
+}
+.pageMenu .home-ico {
+	background-image: url
+
+("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlY
+
+WR5ccllPAAAAVpJREFUeNqs1MErBFEcwPEZJlZclIO7Gw5WFCcOcqHkolZSS+3F0YUTBxyctIcVp01LDsomDiS1xQk31Ip/wYFEstb31U
+
++9Xm9mZye/+jRvfm/6vTdv3jx3MPPiBEQHDqU9jnu/B2sCivSggEdRkJw1PON+Cw+4xTHOMCV9OZxjFJeVZtSOaZwijwS
+
++REJyqm84zKt1I4skSlq
+
++JDnVd4Qxv0JqxD6sYw5lyyBl6dvAASbNNUohg2WsOJVjAW/YQRO2PRkhjXkZKWys4h2bqHPZRx80PvEcssASTtQsZD3bUK9mFMMs9pzqIiVXt
+
+U67nuXT6/GKNflC/ZZiaduGHEAL9rVcXgpN4Bp3Wt8i4n47+0l27198a
+
++0bY0cnw/5rVYU5owY0a/dulEJFzGBEy11FKXSB3qiv9q9r9INODAU81yqHWszIdaFR1VC/SFYOr9qIk1HHS+5XgAEApoRIR7B
+
++ibcAAAAASUVORK5CYII=");
+}
+.pageMenu .member-ico {
+	background-image: url
+
+("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlY
+
+WR5ccllPAAAAeFJREFUeNqE1F9IU2EYx/HN1sWEHGwECl55UVdCihEGgsnACCGJEKILEcy8yGIS4UXsQgK9SlSM0BLrYkVCEYh/kKYQU4i5WncGYl
+
+AXgSBEra0R2feNX/B2ONt54cPYc973Oed9zvscf+u9fZ/L8OMS+tGoWAb38QQHzgUVLkkOIYGHyOKyZBVLaM5/I+CS6AbOI4qUFX
+
++Jp1jFdYx5PVEM444k/0ZK1wa9thZBLZK
+
++0iOpOZFyiXL4jVCZRCHNyZVLVMBr9OrNuY0ezSl41egWzmAKQSseVH2imuP51t6gE4/QhQ3FT2tLnZrjmciMJdThIhoUe4F5fHdb4JboBPrwU0d
+
+hzrpmtnYY03hXqkZhPFArnNTB7LauX8U1Xctobtj5RMewrB76qC1d0Z1NrBITGMEM1tCKNM7ig0lUg1fYwQVNeIx2/MCsbhbHXazgJtbxXGtP+el
+
++86ceTfiqRcPq+m2r2G9xXNuKW4dzC
+
++9NjT4rYJ/muO5YxIAUFYs7TnkVPpknCqp/juKc2a/jLQ7pd9QRN3VdxB7azBPlVbBdFS/mONHOEVT3p7XGrM37rS9kQFu4bR3ATbTov
+
++mvZp1s04d3MIlffz+pLp/aI2qNDhW6WvEvKvgCnuGbveiPAAMAkIJybbksju0AAAAASUVORK5CYII=");
+}
+.pageMenu .feed-ico {
+	background-image: url
+
+("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlY
+
+WR5ccllPAAAAZNJREFUeNqs1M0rRFEYx/F7pxEjdlYaFpqysSNrZUqzkCz8A5LZSokSycoCsfFW5D+wsho7S8bCSI28xZhMGcko0szl
+
++9QzdbrNvabJqc/ct3N
+
++Pfece8bu23i1jHaAOOawj3484BOdOMIoFrGN4fJAm6AQxzV0oAcXiCCDFnyhiCa8IIxrdOEUt5gI8BPDOJL4QApSZhrPWtGdnqf1WUr7JnVsLMhP
+
+g1Y3o8clLf9QK5SAb7TjBIPYxbuOmZaMgDE/UZ0DGXyONuTk9VGv581YgaN9o
+
++XBQSNoxPq75fV1Iu7+ZlDcqr6dGf1ljqyA9U8t6LpuxbzOy6ou8zrqXP1+9FvKegXJhO5o0D1K2DRW1gzK+VUkq9KtQVnt3OtRkXyIb
+
++Ub7jlyjPOiDih5TIvjV1EBCa0or0FyHaoQUvALCutmlKBJXGILjRWCxvDoFSQPBlz3hmpZftkWy1rRAq6w57FqU7qhKwY96Ua0tZNM
+
++KzHqmX8KnL0L8P9ulW9mmPs/lqbI0HHuhUSNYbcSMavAAMA5uppxODP85gAAAAASUVORK5CYII=");
+}
