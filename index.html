@@ -111,6 +111,17 @@
 		color: #38D;
 		text-decoration: inherit;
 	}
+	#header {
+    	position: fixed;
+    	top: 0px;
+    	left: 0px;
+    	width: 100%;
+    	font-size: 1.5em;
+    	background-color: #fff;
+    	opacity: 0.8;
+    	z-index: 999;
+	}
+
 	footer {
 		position: absolute;
 		left: 0;
@@ -169,8 +180,16 @@
  
 <META name="GENERATOR" content="MSHTML 11.00.9600.17239"></HEAD> 
 <BODY onload="pageDidLoad()">
-<HEADER data-animation="fadeInDownBig"><A title="Back to Homepage" class="logo" 
-href="../index">牛牛志</A>
+
+<header id="header">
+  <div class="container clearfix">
+    <a href="/">
+      <div class="logo" style='background-image: url("");'></div>
+      <div class="name">牛牛誌</div>
+    </a>
+  </div>
+</header>
+
 <DIV id="cont"><HEADER id="title-12">
 <H1>团结一致向前看</H1>
 <H2>也只能这么说了</H2></HEADER>
