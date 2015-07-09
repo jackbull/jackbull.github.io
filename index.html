@@ -1,8 +1,9 @@
-<META charset="utf-8">	 <TITLE>Jackbull</TITLE>	 
+<META charset="utf-8">
+<TITLE>Jackbull</TITLE>	 
 <META name="description" content="test text test text ">	 
 <META name="keywords" content="Jackbull">	 
 <LINK href="../favicon.ico" rel="favicon shortcut icon">
-	 <LINK href="../favicon.png" rel="apple-touch-icon">	 
+<LINK href="../favicon.png" rel="apple-touch-icon">	 
 <STYLE type="text/css">
 	@import url();
 	body {
@@ -165,7 +166,7 @@
 	function pageDidLoad() {
 		document.getElementById("title-12").style.opacity = 1;
 		document.getElementById("title-12").style.marginTop = "-170px";
-		document.getElementById("cont").style.backgroundImage = "url(http://ww4.sinaimg.cn/large/a15b4afegw1et6f7ppflaj21kw16oaoe)";
+		document.getElementById("cont").style.backgroundImage = "url(http://ww4.sinaimg.cn/large/a15b4afegw1etx0kik4b0j21jk0v94ay)";
 		document.getElementById("cont").style.opacity = 1;
 		setTimeout(showNav, 600);
 	}
@@ -184,6 +185,64 @@
 		}
 	}
 	</SCRIPT>
+	
+<script>
+        var imgUrl = "http://ww2.sinaimg.cn/thumb150/a15b4afegw1etx0kik4b0j21jk0v94ay";
+        var lineLink = "http://niuniuzhi.science/";
+        var descContent = '逢いたくて 逢えなくて 溢れ出す涙の雨（凌晨是测试的好时候）';
+        var shareTitle = 'Jackbull';
+        var appid = '';
+           
+        function shareFriend() {
+            WeixinJSBridge.invoke('sendAppMessage',{
+                "appid": appid,
+                "img_url": imgUrl,
+                "img_width": "200",
+                "img_height": "200",
+                "link": lineLink,
+                "desc": descContent,
+                "title": shareTitle
+            }, function(res) {
+                //_report('send_msg', res.err_msg);
+            })
+        }
+        function shareTimeline() {
+            WeixinJSBridge.invoke('shareTimeline',{
+                "img_url": imgUrl,
+                "img_width": "200",
+                "img_height": "200",
+                "link": lineLink,
+                "desc": descContent,
+                "title": shareTitle
+            }, function(res) {
+                   //_report('timeline', res.err_msg);
+            });
+        }
+        function shareWeibo() {
+            WeixinJSBridge.invoke('shareWeibo',{
+                "content": descContent,
+                "url": lineLink,
+            }, function(res) {
+                //_report('weibo', res.err_msg);
+            });
+        }
+        // 当微信内置浏览器完成内部初始化后会触发WeixinJSBridgeReady事件。
+        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+            // 发送给好友
+            WeixinJSBridge.on('menu:share:appmessage', function(argv){
+                shareFriend();
+            });
+            // 分享到朋友圈
+            WeixinJSBridge.on('menu:share:timeline', function(argv){
+                shareTimeline();
+            });
+            // 分享到微博
+            WeixinJSBridge.on('menu:share:weibo', function(argv){
+                shareWeibo();
+            });
+        }, false);
+</script>
+
  
 <META name="GENERATOR" content="MSHTML 11.00.9600.17239"></HEAD> 
 <BODY onload="pageDidLoad()">
@@ -198,8 +257,8 @@
 </header>
 
 <DIV id="cont"><HEADER id="title-12">
-<H1>只要是晴天</H1>
-<H2>随便拍都是美景</H2></HEADER>
+<H1>逢いたくて 逢えなくて </H1>
+<H2>溢れ出す涙の雨</H2></HEADER>
 
 <DIV id="main-nav">
 <UL>
